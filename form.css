@@ -1,0 +1,97 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1a1a1a; /* Latar belakang hitam khas tema F1 */
+    color: #ffffff; /* Teks berwarna putih agar kontras */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    width: 100%;
+    max-width: 500px;
+    background: #262626; /* Kotak form berwarna abu-abu gelap */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.5); /* Efek bayangan */
+}
+
+legend {
+    font-weight: bold;
+    color: #00d2be; /* Warna Teal Mercedes */
+    padding: 0 10px;
+    text-align: center; /* Membuat teks Pemesanan Jaket Racing berada di tengah */
+}
+
+fieldset {
+    border: 2px solid #00d2be; /* Garis kotak berwarna Teal */
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Sedikit styling agar form input tidak silau */
+input[type="text"], select, textarea {
+    background-color: #333;
+    color: white;
+    border: 1px solid #555;
+    padding: 5px;
+    border-radius: 3px;
+    font-family: inherit;
+}
+
+/* Mengubah warna teks placeholder pada textarea */
+textarea::placeholder {
+    color: #bbb;
+}
+
+.submit-btn {
+    background-color: #00d2be;
+    color: #1a1a1a;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s; /* Efek transisi halus saat di-hover */
+}
+
+.submit-btn:hover {
+    background-color: #ffffff; /* Tombol jadi putih saat disentuh kursor */
+}
+
+.popup {
+    display: none;
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #00d2be; /* Popup dengan warna tema */
+    color: #1a1a1a;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    max-width: 500px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.back {
+    margin-top: 20px;
+    background-color: #00d2be;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.back a {
+    color: #1a1a1a;
+    text-decoration: none;
+    display: block;
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.back:hover {
+    background-color: #ffffff;
+}
